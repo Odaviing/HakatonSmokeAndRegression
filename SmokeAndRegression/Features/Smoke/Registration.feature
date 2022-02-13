@@ -22,3 +22,7 @@ Scenario Outline: Registration
 	| Username | Email                | Password         |
 	| Odaviing | tes5alduin@gmail.com | Theelderscrolls5 |
 
+@regression
+Scenario Outline: Registration with invalid username
+	
+	
