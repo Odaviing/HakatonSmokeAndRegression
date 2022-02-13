@@ -25,3 +25,21 @@ Scenario Outline: Authorization as a administrator
 	Examples: 
 	| Email         | Password         |
 	|  |  |
+
+@regression
+Scenario Outline: Authorization with the invalid data
+	Given user is on the Log in screen
+	When user enters '<Email>' in the Email field
+	And user enters '<Password>' in the Password field
+	And user clicks on the Sign in button
+	Then user sees message "Invalid password or email"
+	Examples: 
+	| Email         | Password         |
+	| odaviing@i.ua | Theelderscrolls6 |
+	| odav11ng@i.ua | Theelderscrolls5 |
+
+@regression
+Scenario: Authorization with the empty fields
+	Given user is on the Log in screen
+	When user clicks on the Sign in button
+	Then user sees message "Invalid password or email"
