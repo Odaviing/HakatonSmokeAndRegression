@@ -1,5 +1,10 @@
 ﻿Feature: PagesOnHomepage
 
+As a user
+I want to have a list of tournaments on the main page
+In order to not spend time for searching site content
+
+
 Background: 
 	Given user is on the Homepage
 

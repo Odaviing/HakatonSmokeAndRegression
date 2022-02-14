@@ -1,6 +1,9 @@
 ﻿Feature: AddPlayers
 
-A short summary of the feature
+As a user 
+I want to add my friend to the game
+In order to have some fun with them
+
 Background: 
 	Given user is on the Homepage
 
