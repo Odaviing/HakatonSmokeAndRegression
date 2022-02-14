@@ -1,5 +1,9 @@
 ﻿Feature: UserWatchesTablesWithMatches
 
+As a user 
+I want to see information about matches 
+In order to know the details of the tournament 
+
 Background: 
 	Given user is on the Homepage
 

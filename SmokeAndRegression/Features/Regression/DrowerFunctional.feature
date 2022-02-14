@@ -1,5 +1,8 @@
 ﻿Feature: DrowerFunctional
 
+As a user 
+I want to have a quick access to my account settings
+In order to conveniently manage my account
 
 Background: 
 	Given user is on the Homepage
