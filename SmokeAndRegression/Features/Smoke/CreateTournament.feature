@@ -2,11 +2,11 @@
 	As an administrator 
 	I want to be able to create tournaments 
 	In order to attract new users
-#НЕ ЗАБУДЬ ВСТАВИТЬ ДАННЫЕ АДМИНА!!!!!111
+
 Background: 
 	Given admin is on the Log in screen
-	When admin enters '<ВВЕДИ ПОЧТУ АДМИНА ПЕС>' in the Email field
-	And admin enters '<ВВЕДИ ПАРОЛЬ АДМИНА ПЕС>' in the Password field
+	When admin enters 'felix@i.ua' in the Email field
+	And admin enters 'passw0rd' in the Password field
 	And admin taps on the Sign in button
 	Then admin is on the Tournaments screen
 	When admin taps on the Create tournament button

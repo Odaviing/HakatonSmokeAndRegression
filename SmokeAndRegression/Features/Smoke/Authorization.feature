@@ -24,7 +24,7 @@ Scenario Outline: Authorization as a administrator
 	And admin sees the tournament creation button
 	Examples: 
 	| Email         | Password         |
-	|  |  |
+	| felix@i.ua    |  passw0rd        |
 
 @regression
 Scenario Outline: Authorization with the invalid data
